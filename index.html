@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sanjay S — Cybersecurity Student & Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Sanjay S — CSE (Cybersecurity) student portfolio showcasing projects, certificates and skills with an anime-themed UI.">
+</head>
+<body>
+  <div class="scene">
+    <div class="stars"></div>
+    <div class="glow"></div>
+  </div>
+
+  <header class="nav">
+    <div class="brand">
+      <img src="assets/anime-character.svg" alt="avatar" class="avatar">
+      <div>
+        <div class="name">Sanjay S</div>
+        <div class="role">CSE (Cybersecurity), St. Joseph's College of Engineering, OMR</div>
+      </div>
+    </div>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="accent">Sanjay S</span></h1>
+        <p class="lead">CSE (Cybersecurity) student passionate about offensive security, web hardening and building advanced tools. I blend creativity with rigor to produce secure, modern applications.</p>
+        <div class="cta">
+          <a class="btn" href="#projects">See Projects</a>
+          <a class="btn outline" href="#certificates">Certificates</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="chip">
+          <div class="glitch">ANIME</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about glass">
+      <h2>About</h2>
+      <p>I'm Sanjay S, studying Computer Science & Engineering (Cybersecurity) at St. Joseph's College of Engineering, OMR. I focus on penetration testing, secure coding, network defense and privacy-preserving technologies. I enjoy anime, pixel art and designing UIs with a bold, modern aesthetic.</p>
+      <div class="quick-stats">
+        <div class="stat"><strong>Year</strong><span>3rd</span></div>
+        <div class="stat"><strong>Location</strong><span>Chennai, India</span></div>
+        <div class="stat"><strong>Interests</strong><span>Offsec · WebSec · CTFs</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <h2>Selected Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Cyber Range Simulator</h3>
+          <p>Built a container-based local cyber range that simulates real-world attack scenarios for hands-on training. Features include automated scoring and scenario templates.</p>
+          <div class="tags"><span>Docker</span><span>Python</span><span>Network</span></div>
+          <button class="btn small" data-modal="modal-project-1">Details</button>
+        </article>
+
+        <article class="card">
+          <h3>Secure Web Proxy (EduVPN)</h3>
+          <p>Implemented a hardened web proxy with content filtering and TLS inspection features to teach secure gateway concepts to peers.</p>
+          <div class="tags"><span>Go</span><span>TLS</span><span>Security</span></div>
+          <button class="btn small" data-modal="modal-project-2">Details</button>
+        </article>
+
+        <article class="card">
+          <h3>Malware Analysis Toolkit</h3>
+          <p>Created an automated sandbox that extracts indicators of compromise and generates analysis reports for sample binaries.</p>
+          <div class="tags"><span>Python</span><span>YARA</span><span>Automation</span></div>
+          <button class="btn small" data-modal="modal-project-3">Details</button>
+        </article>
+      </div>
+    </section>
+
+    <section id="certificates" class="section certificates glass">
+      <h2>Certificates & Achievements</h2>
+      <div class="cards">
+        <div class="cert">
+          <img src="assets/anime-character.svg" alt="cert"/>
+          <div>
+            <h4>Introduction to Cybersecurity — Coursera</h4>
+            <p>Completed guided course on fundamentals of cybersecurity.</p>
+          </div>
+        </div>
+        <div class="cert">
+          <img src="assets/anime-character.svg" alt="cert"/>
+          <div>
+            <h4>Web App Security — OWASP Training</h4>
+            <p>Hands-on training covering common web vulnerabilities and defenses.</p>
+          </div>
+        </div>
+        <div class="cert">
+          <img src="assets/anime-character.svg" alt="cert"/>
+          <div>
+            <h4>CTF Podium — College CTF</h4>
+            <p>Top 3 finish in an inter-college CTF (capture the flag).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <span>Penetration Testing</span>
+        <span>Web Security</span>
+        <span>Network Security</span>
+        <span>Python</span>
+        <span>Go</span>
+        <span>Docker</span>
+        <span>CI/CD</span>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact glass">
+      <h2>Contact</h2>
+      <p>If you'd like to collaborate or invite me for internships, reach out via email: <a href="mailto:sanjay.example@email.com">sanjay.example@email.com</a></p>
+      <p>Or use the socials below.</p>
+      <div class="socials">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Designed with an anime aesthetic — portfolio generated for Sanjay S</small>
+  </footer>
+
+  <!-- Modal templates -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-panel">
+      <button class="modal-close" aria-label="Close">×</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
