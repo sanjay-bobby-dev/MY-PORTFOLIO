@@ -1,0 +1,8 @@
+To launch your site with GitHub Pages:
+1. Go to https://github.com/sanjay-bobby-dev/MY-PORTFOLIO
+2. Click 'Settings' > 'Pages' in the sidebar.
+3. Under 'Build and deployment', select 'Deploy from a branch'.
+4. Set 'Branch' to 'main' and '/ (root)'.
+5. Save. Your site will be live at https://sanjay-bobby-dev.github.io/MY-PORTFOLIO/
+
+You can delete this file after setup.
